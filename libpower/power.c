@@ -153,7 +153,6 @@ static void omap_power_set_interactive(struct power_module *module, int on) {
     /*
      *sysfs_write(CPUFREQ_CPU0 "scaling_max_freq", on ? max_freq : nom_freq);
      */
-}
 
 static void omap_power_hint(struct power_module *module, power_hint_t hint, void *data) {
     struct omap_power_module *omap_device = (struct omap_power_module *) module;
